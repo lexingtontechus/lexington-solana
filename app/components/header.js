@@ -9,7 +9,7 @@ const logoImage = ({ src, width, quality }) => {
 };
 
 const Header = () => (
-  <div className="navbar flex justify-between px-4 whitespace-normal uppercase bg-base-200">
+  <div className="navbar flex justify-between px-4 whitespace-normal uppercase">
     <div className="flex-1">
       <div className="avatar">
         <div className="p-0 h-12 w-12">
