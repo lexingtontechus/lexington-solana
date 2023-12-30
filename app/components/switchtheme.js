@@ -15,7 +15,7 @@ const ThemeChanger = () => {
     <div className="flex items-center swap swap-rotate">
       {theme === "cyberpunk" ? (
         <button
-          className="btn btn-sm btn-secondary mask mask-hexagon-2"
+          className="btn btn-sm btn-accent mask mask-hexagon-2"
           onClick={() => setTheme("dracula")}
         >
           <span className="sr-only">Dark Mode</span>
@@ -23,7 +23,7 @@ const ThemeChanger = () => {
         </button>
       ) : (
         <button
-          className="btn btn-sm btn-secondary mask mask-hexagon-2"
+          className="btn btn-sm btn-accent mask mask-hexagon-2"
           onClick={() => setTheme("cyberpunk")}
         >
           <span className="sr-only">Light Mode</span>

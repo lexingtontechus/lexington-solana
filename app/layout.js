@@ -1,6 +1,9 @@
 import "/styles/index.css";
 import "/styles/globals.css";
+//import { Solana } from "./solana";
 import { Providers } from "./providers";
+import Header from "./components/header";
+import Footer from "./components/footer";
 
 export const metadata = {
   title: {
